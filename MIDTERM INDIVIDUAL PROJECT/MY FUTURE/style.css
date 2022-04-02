@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    text-transform: capitalize;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
+    text-indent: 30px;
+    /*color: #4D00FF;*/
+    /*color: rgb(77, 0, 255);*/
+    /*color: rgba(77, 0, 255, 1); /*can be transparent 0 to 1*/
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #101820FF;
+}
+
+blockquote {
+    line-height: 25px;
+    font-size: 19px;
+    font-weight: 300;
+    text-indent: 30px;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    text-align: justify;
+    color: #101820FF;
+    
+}
+
+p {
+    line-height: 40px;
+    font-size: 20px;
+    text-indent: 30px;
+    font-family: Verdana, Arial, Tahoma, sans-serif;
+    text-align: center;
+    color: #101820FF;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+a:visited{
+    color: rgb(44, 30, 163);
+}
+
+a:link{
+    color: black;
+    text-decoration: none;
+}

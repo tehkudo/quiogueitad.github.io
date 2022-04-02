@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hip Hop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script>
+            document.addEventListener('play', function(e){  
+                var audios = document.getElementsByTagName('audio');  
+                for(var i = 0, len = audios.length; i < len;i++){  
+                    if(audios[i] != e.target){  
+                        audios[i].pause();  
+                    }  
+                }  
+            }, true);
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="MEDIA/notes.png" class="logo" href="/BeatNClips/index.html" height="50px">
+                <ul>
+                    <li><a href="../landing.html">Home</a></li>
+                    <li><a href="../BeatNClips/pop.html">Pop Music</a></li>
+                    <li><a href="../BeatNClips/hiphop.html">Hip-Hop</a></li>
+                    <li><a href="../BeatNClips/rock.html">Rock</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div class="caption">
+                    <h1>GENRES OF<br>MUSIC: HIP-HOP</h1>
+                </div>
+                <div class="songs">
+                    <div class="hiphop1">
+                        <p><i>Mood</i><br>by 24kGoldn&nbsp;&nbsp;&nbsp;</p>
+                        <audio controls>
+                            <source src="../BeatNClips/MEDIA/HIP HOP/mood.mp3">
+                        </audio>
+                    </div>
+                    <br>
+                    <div class="hiphop2">
+                        <p><i>See You Again</i><br>by Wiz Khalifa</p>
+                        <audio controls>
+                            <source src="../BeatNClips/MEDIA/HIP HOP/see you again.mp3">
+                        </audio>
+                    </div>
+                    <br>
+                    <div class="hiphop3">
+                        <p><i>Hotline Bling&nbsp;&nbsp;</i><br>by Drake</p>
+                        <audio controls>
+                            <source src="../BeatNClips/MEDIA/HIP HOP/hotlinebling.mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

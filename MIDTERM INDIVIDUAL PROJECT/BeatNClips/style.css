@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url(MEDIA/2599087.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #282828;
+}
+
+.logo{
+    width: 50px;
+    margin-left: 50px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+    margin-right: 80px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2vw;
+}
+
+.navbar a:hover{
+    color: rgb(18, 172, 18);
+    transition: 0.3s;
+}
+
+.content{
+    margin-top: 100px;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.caption{
+    margin-left: 6%;
+    cursor: default;
+}
+.caption h1{
+    font-size: 90px;
+    color: white;
+    line-height: 110px;
+    float: left;
+}
+
+.right-col{
+    float: right;
+    margin-right: 6%;
+    margin-top: 120px;
+    display: flex;
+    align-items: center;
+}
+
+.right-col p{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+#icon{
+    margin-top: 100px;
+    width: 80px;
+    cursor: pointer;
+}
+
+.songs {
+    float: right;
+    margin: 30px;
+    margin-right: 100px;
+}
+
+.pop1 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.pop2 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.pop3 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+p:hover{
+    color: rgb(216, 175, 255);
+    transition: 0.3s;
+    cursor: default;
+}
+
+.hiphop1 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.hiphop2 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.hiphop3 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+p:hover{
+    color: rgb(18, 172, 18);
+    transition: 0.3s;
+    cursor: default;
+}
+
+.rock1 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.rock2 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+.rock3 p{
+    float: right;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+}
+
+p:hover{
+    color: rgb(18, 172, 18);
+    transition: 0.3s;
+    cursor: default;
+}
+
+.clip{
+    float: right;
+    margin-right: 100px;
+    align-items: center;
+}
+
+.medialogo{
+    margin-top: 10px;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Pop</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script>
+            document.addEventListener('play', function(e){  
+                var audios = document.getElementsByTagName('audio');  
+                for(var i = 0, len = audios.length; i < len;i++){  
+                    if(audios[i] != e.target){  
+                        audios[i].pause();  
+                    }  
+                }  
+            }, true);
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <img src="MEDIA/notes.png" class="logo" href="/BeatNClips/index.html" height="50px">
+                <ul>
+                    <li><a href="../landing.html">Home</a></li>
+                    <li><a href="../BeatNClips/pop.html">Pop Music</a></li>
+                    <li><a href="../BeatNClips/hiphop.html">Hip-Hop</a></li>
+                    <li><a href="../BeatNClips/rock.html">Rock</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div class="caption">
+                    <h1>GENRES OF<br>MUSIC: POP</h1>
+                </div>
+                <div class="songs">
+                    <div class="pop1">
+                        <p><i>Light Switch</i><br>by Charlie Puth</p>
+                        <audio controls>
+                            <source src="../BeatNClips/MEDIA/POP/lightswitch.mp3">
+                        </audio>
+                    </div>
+                    <br>
+                    <div class="pop2">
+                        <p><i>Uptown Funk</i><br>by Bruno Mars&nbsp;</p>
+                        <audio controls>
+                            <source src="../BeatNClips/MEDIA/POP/uptown.mp3">
+                        </audio>
+                    </div>
+                    <br>
+                    <div class="pop3">
+                        <p><i>Moves Like<br>Jagger</i><br>by Maroon 5&nbsp;&nbsp;&nbsp;&nbsp;</p>
+                        <audio controls>
+                            <source src="../BeatNClips/MEDIA/POP/jagger.mp3">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

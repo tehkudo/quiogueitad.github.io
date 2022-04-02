@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TV Show Clip</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script>
+            document.addEventListener('play', function(e){  
+                var audios = document.getElementsByTagName('audio');  
+                for(var i = 0, len = audios.length; i < len;i++){  
+                    if(audios[i] != e.target){  
+                        audios[i].pause();  
+                    }  
+                }  
+            }, true);
+        </script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="medialogo">
+                    <img src="MEDIA/medialogo.png" class="logo" width="100px" height="36px">
+                </div>
+                <ul>
+                    <li><a href="../landing.html">Home</a></li>
+                    <li><a href="../BeatNClips/movie.html">Movie</a></li>
+                    <li><a href="../BeatNClips/tvshow.html">TV Show</a></li>
+                </ul>
+            </div>
+
+            <div class="content">
+                <div class="caption">
+                    <h1>The Office<br>Clip</h1>
+                </div>
+                <div class="clip">
+                    <div class="tvshow">
+                        <video src="../BeatNClips/CLIPS/TheOffice.mp4" controls width="620" height="290" poster="../BeatNClips/CLIPS/theoffice.png"></video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
